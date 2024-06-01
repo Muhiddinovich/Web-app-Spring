@@ -33,6 +33,7 @@ public class SayHelloController {
 	// "say-hello-jsp" => sayHello.jsp
 	// /src/main/resources/META-INF/resources/WEB-INF/jsp/sayHello.jsp
 	// Spring MVC already knows up to /src/main/resources/META-INF/resources
+	
 	@RequestMapping("say-hello-jsp")
 //	@ResponseBody  removing the annotation
 	public String sayHelloJsp() {
