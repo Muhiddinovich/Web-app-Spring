@@ -9,7 +9,7 @@
 		<div class = "container">
 			<h1>Enter Todo Details</h1>
 			<form method="POST">
-				Description: <input type="text"/>
+				Description: <input type="text" name="description"/>
 				<input type="submit" class="btn btn-success"/>
 			</form>
 		</div>
